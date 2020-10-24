@@ -1,0 +1,175 @@
+/*breakpoint 1400px*/
+
+@media only screen and (max-width: 1400px) {
+  h1, 
+  h2, 
+  .cta__text {
+    font-size: 5rem;
+  }
+
+  .header__img {
+    width: 45rem;
+    margin-top: 52%;
+  }
+}
+
+/*breakpoint 1200px*/
+
+@media only screen and (max-width: 1200px) {
+  .row,
+  .row--left {
+    padding-left: 10rem;
+  }
+
+  .row,
+  .row--right {
+    padding-right: 10rem;
+  }
+
+  .header__img {
+    width: 40rem;
+    margin-top: 65%;
+  }
+}
+
+/*breakpoint 1000px*/
+
+@media only screen and (max-width: 1000px) {
+  .row,
+  .row--left {
+    padding-left: 5rem;
+  }
+
+  .row,
+  .row--right {
+    padding-right: 5rem;
+  }
+
+  .header__img {
+    width: 40rem;
+    margin-top: 40%;
+  }
+}
+
+/*breakpoint 900px*/
+
+@media only screen and (max-width: 900px) {
+  h1, 
+  h2, 
+  .cta__text {
+    font-size: 4rem;
+  }
+
+  .header__img {
+    width: 35rem;
+    margin-top: 55%;
+  }
+
+  h3 {
+    line-height: 1.2;
+  }
+
+  .section-features__item:not(:last-child) {
+    margin-right: 4.5rem;
+  }
+
+  .margin-bottom-large {
+    margin-bottom: 8rem;
+  }
+
+  .margin-top-large {
+    margin-top: 8rem;
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-content: center;
+  }
+}
+
+/*breakpoint 800px*/
+
+@media only screen and (max-width: 800px) {
+  .navigation__list {
+    width: 0;
+    visibility: hidden;
+  }
+
+  .navigation__checkbox {
+    width: 3rem;
+    height: 5rem;
+  }
+
+  .navigation__icon,
+  .navigation__icon::before,
+  .navigation__icon::after {
+    opacity: 1;
+  }
+
+  .header {
+    flex-direction: column;
+
+  }
+
+  .header__img-box {
+    display: none;
+  }
+
+  .header__text-box {
+    max-width: 50rem;
+  }
+
+  .section-features__box {
+    flex-direction: column;
+  }
+
+  .section-features__item {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+}
+
+/*breakpoint 600px*/
+
+@media only screen and (max-width: 600px) {
+  h1, 
+  h2, 
+  .cta__text {
+    font-size: 3.5rem;
+  }
+
+  .row,
+  .row--left {
+    padding-left: 2.5rem;
+  }
+
+  .row,
+  .row--right {
+    padding-right: 2.5rem;
+  }
+
+  .header__text-box {
+    max-width: 90%;
+  }
+
+  .header__pattern--2,
+  .cta__pattern {
+    display: none;
+  }
+
+  .section-form {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .cta__text {
+    text-align: center;
+  }
+
+  .footer-nav {
+    justify-items: center;
+    text-align: center;
+  }
+}
